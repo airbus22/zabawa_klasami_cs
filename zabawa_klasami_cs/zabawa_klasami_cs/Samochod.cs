@@ -11,6 +11,7 @@ namespace zabawa_klasami_cs
         public string typ { get; set; }
         public string marka { get; set; }
         public string kolor { get; set; }
+        public int pojemnosc_silnika { get; set; }
         public string wiek { get; set; }
         public string uwagi { get; set; }
     }
