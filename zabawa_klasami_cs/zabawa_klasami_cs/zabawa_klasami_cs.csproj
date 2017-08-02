@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{2C6D55F1-F626-48BA-ADD6-CD7253C562DF}</ProjectGuid>
+    <ProjectGuid>{43A25428-F816-4175-A849-88BA7E1BBCDB}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>zabawa_klasami_ksap</RootNamespace>
-    <AssemblyName>zabawa_klasami_ksap</AssemblyName>
+    <RootNamespace>zabawa_klasami_cs</RootNamespace>
+    <AssemblyName>zabawa_klasami_cs</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,7 +42,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="dostep_modyfikacja.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

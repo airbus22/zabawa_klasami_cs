@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // Ogólne informacje o zestawie są kontrolowane poprzez następujący 
 // zestaw atrybutów. Zmień wartości tych atrybutów, aby zmodyfikować informacje
 // powiązane z zestawem.
-[assembly: AssemblyTitle("zabawa_klasami_ksap")]
+[assembly: AssemblyTitle("zabawa_klasami_cs")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("zabawa_klasami_ksap")]
+[assembly: AssemblyProduct("zabawa_klasami_cs")]
 [assembly: AssemblyCopyright("Copyright ©  2017")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // Następujący identyfikator GUID jest identyfikatorem biblioteki typów w przypadku udostępnienia tego projektu w modelu COM
-[assembly: Guid("2c6d55f1-f626-48ba-add6-cd7253c562df")]
+[assembly: Guid("43a25428-f816-4175-a849-88ba7e1bbcdb")]
 
 // Informacje o wersji zestawu zawierają następujące cztery wartości:
 //
