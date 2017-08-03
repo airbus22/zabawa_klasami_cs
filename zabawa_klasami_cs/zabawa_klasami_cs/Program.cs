@@ -6,10 +6,15 @@ using System.Threading.Tasks;
 
 namespace zabawa_klasami_cs
 {
-    class Program
+    class Program : Samochod
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Kolor jest: ");
         }
+
+        Samochod.kolor = "zielony";
+        
+        
     }
 }
