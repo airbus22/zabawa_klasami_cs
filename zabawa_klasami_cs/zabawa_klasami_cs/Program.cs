@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace zabawa_klasami_cs
 {
-    class Program : Samochod
+    public class Program : Samochod
     {
         static void Main(string[] args)
         {
@@ -21,6 +21,7 @@ namespace zabawa_klasami_cs
             Samochod marka = m;
         }
         
+        Console.WriteLine("coś" );
         
     }
 }
