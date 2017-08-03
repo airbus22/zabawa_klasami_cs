@@ -8,15 +8,13 @@ namespace zabawa_klasami_cs
 {
     class Samochod
     {
-        private string typ;
-        private string marka;
-        private string kolor;
-        private int silnik;
-        private string paliwo;
-        private string wiek;
-        private string uwagi;
-        private string typ1;
-
-        public string typ { get; set; }
+        private string typ { get; set; }
+        private string marka { get; set; }
+        private string kolor { get; set; }
+        private int silnik { get; set; }
+        private string paliwo { get; set; }
+        private string pojemnosc { get; set; }
+        private string wiek { get; set; }
+        private string uwagi { get; set; }             
     }
 }
