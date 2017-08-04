@@ -21,7 +21,7 @@ namespace zabawa_klasami_cs
             Samochod marka = m;
         }
         
-        Console.WriteLine("coś" );
+        Console.WriteLine("coś");
         
     }
 }
