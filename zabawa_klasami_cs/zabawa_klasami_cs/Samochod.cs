@@ -10,11 +10,12 @@ namespace zabawa_klasami_cs
     {
         public string typ { get; set; }
         public string marka { get; set; }
+        public string model { get; set; }   
         public string kolor { get; set; }
-        public int silnik { get; set; }
+        public string silnik { get; set; }
         public string paliwo { get; set; }
-        public string pojemnosc { get; set; }
-        public string wiek { get; set; }
+        public double pojemnosc { get; set; }
+        public int rokProdukcji { get; set; }
         public string uwagi { get; set; }             
     }
 }
