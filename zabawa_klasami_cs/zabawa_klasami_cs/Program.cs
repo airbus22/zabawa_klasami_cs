@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace zabawa_klasami_cs
 {
-    public class Program : Samochod
+    public class Program
     {
         Samochod Osobowy = new Samochod();
 
@@ -28,32 +28,32 @@ namespace zabawa_klasami_cs
         //    Osobowy.uwagi = u;
         //}
 
-        public void test_wypisu()
+        public void Test_wypisu()
         {
-            Osobowy.typ = "Hathback";
-            Osobowy.marka = "Toyota";
-            Osobowy.model = "Auris";
-            Osobowy.kolor = "grafitowy";
-            Osobowy.silnik = "V4 8V";
-            Osobowy.paliwo = "Olej napędowy";
-            Osobowy.pojemnosc = 1.4;
-            Osobowy.rokProdukcji = 2011;
-            Osobowy.uwagi = "super wóz - uwag brak";
+            Osobowy.Typ = "Hathback";
+            Osobowy.Marka = "Toyota";
+            Osobowy.Model = "Auris";
+            Osobowy.Kolor = "grafitowy";
+            Osobowy.Silnik = "V4 8V";
+            Osobowy.Paliwo = "Olej napędowy";
+            Osobowy.Pojemnosc = 1.4;
+            Osobowy.RokProdukcji = 2011;
+            Osobowy.Uwagi = "super wóz - uwag brak";
         }
 
-        public void wyswietNaEkran()
+        public void WyswietNaEkran()
         {
-            test_wypisu();
+            Test_wypisu();
             Console.WriteLine("Wyniki wyszukiwania:");
-            Console.WriteLine(Osobowy.typ.ToString());
-            Console.WriteLine(Osobowy.marka.ToString());
-            Console.WriteLine(Osobowy.model.ToString());
-            Console.WriteLine(Osobowy.kolor.ToString());
-            Console.WriteLine(Osobowy.silnik.ToString());
-            Console.WriteLine(Osobowy.paliwo.ToString());
-            Console.WriteLine(Osobowy.pojemnosc.ToString());
-            Console.WriteLine(Osobowy.rokProdukcji.ToString());
-            Console.WriteLine(Osobowy.uwagi.ToString());
+            Console.WriteLine(Osobowy.Typ.ToString());
+            Console.WriteLine(Osobowy.Marka.ToString());
+            Console.WriteLine(Osobowy.Model.ToString());
+            Console.WriteLine(Osobowy.Kolor.ToString());
+            Console.WriteLine(Osobowy.Silnik.ToString());
+            Console.WriteLine(Osobowy.Paliwo.ToString());
+            Console.WriteLine(Osobowy.Pojemnosc.ToString());
+            Console.WriteLine(Osobowy.RokProdukcji.ToString());
+            Console.WriteLine(Osobowy.Uwagi.ToString());
         }
     }
 }

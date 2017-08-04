@@ -8,14 +8,14 @@ namespace zabawa_klasami_cs
 {
     public class Samochod
     {
-        public string typ { get; set; }
-        public string marka { get; set; }
-        public string model { get; set; }   
-        public string kolor { get; set; }
-        public string silnik { get; set; }
-        public string paliwo { get; set; }
-        public double pojemnosc { get; set; }
-        public int rokProdukcji { get; set; }
-        public string uwagi { get; set; }             
+        public string Typ { get; set; }
+        public string Marka { get; set; }
+        public string Model { get; set; }   
+        public string Kolor { get; set; }
+        public string Silnik { get; set; }
+        public string Paliwo { get; set; }
+        public double Pojemnosc { get; set; }
+        public int RokProdukcji { get; set; }
+        public string Uwagi { get; set; }             
     }
 }
