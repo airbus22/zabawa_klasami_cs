@@ -30,7 +30,7 @@ namespace zabawa_klasami_cs
 
         public void wyswietNaEkran()
         {
-
+            
         }
     }
 }
