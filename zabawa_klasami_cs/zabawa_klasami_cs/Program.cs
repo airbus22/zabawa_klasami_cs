@@ -30,7 +30,7 @@ namespace zabawa_klasami_cs
 
         public void Test_wypisu()
         {
-            Osobowy.Typ = "Hathback";
+            Osobowy.Typ = "Hatchback";
             Osobowy.Marka = "Toyota";
             Osobowy.Model = "Auris";
             Osobowy.Kolor = "grafitowy";
