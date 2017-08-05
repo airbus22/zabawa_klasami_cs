@@ -16,18 +16,6 @@ namespace zabawa_klasami_cs
             Console.ReadKey();            
         }
 
-        //public void test_wypisu(string t, string m, string k, int s, string p, string poj, string w, string u)
-        //{            
-        //    Osobowy.typ = t;
-        //    Osobowy.marka = m;
-        //    Osobowy.kolor = k;
-        //    Osobowy.silnik = s;
-        //    Osobowy.paliwo = p;
-        //    Osobowy.pojemnosc = poj;
-        //    Osobowy.wiek = w;
-        //    Osobowy.uwagi = u;
-        //}
-
         public void Test_wypisu()
         {
             Osobowy.Typ = "Hatchback";
