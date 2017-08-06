@@ -32,10 +32,10 @@ namespace zabawa_klasami_cs
         public void WyswietNaEkran()
         {
             Test_wypisu();
-            //Console.WriteLine("Wyniki wyszukiwania:");
+            Console.WriteLine("Wyniki wyszukiwania:");
             Console.WriteLine(Osobowy.Typ.ToString());
             Console.WriteLine(Osobowy.Marka.ToString());
-            //Console.WriteLine(Osobowy.Model.ToString());
+            Console.WriteLine(Osobowy.Model.ToString());
             Console.WriteLine(Osobowy.Kolor.ToString());
             Console.WriteLine(Osobowy.Silnik.ToString());
             Console.WriteLine(Osobowy.Paliwo.ToString());
