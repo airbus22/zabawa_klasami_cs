@@ -44,7 +44,7 @@ namespace zabawa_klasami_cs
         public void WyswietNaEkran()
         {
             Test_wypisu();
-            //Console.WriteLine("Wyniki wyszukiwania:");
+            Console.WriteLine("Wyniki wyszukiwania:");
             Console.WriteLine(Osobowy.Typ.ToString());
             Console.WriteLine(Osobowy.Marka.ToString());
             Console.WriteLine(Osobowy.Model.ToString());
