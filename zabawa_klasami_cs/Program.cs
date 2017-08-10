@@ -32,7 +32,7 @@ namespace zabawa_klasami_cs
         {
             Osobowy.Typ = "Hatchback";
             Osobowy.Marka = "Toyota";
-            Osobowy.Model = "Auris";
+            //Osobowy.Model = "Auris";
             Osobowy.Kolor = "grafitowy";
             Osobowy.Silnik = "V4 8V";
             Osobowy.Paliwo = "Olej napędowy";
