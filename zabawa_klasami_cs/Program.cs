@@ -17,7 +17,11 @@ namespace zabawa_klasami_cs
             gbCar.Marka = "Trabant";
             Console.WriteLine("Kolor: " + gbCar.Kolor);
             Console.WriteLine("Marka: " + gbCar.Marka);
-            Console.WriteLine("Model: " + gbCar.Model);
+            if (gbCar.Model != null)
+                Console.WriteLine("Model: " + gbCar.Model);
+            else
+                Console.WriteLine("nie zdefiniowano");
+
             Console.ReadKey();            
         }
 
