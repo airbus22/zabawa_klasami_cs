@@ -12,7 +12,12 @@ namespace zabawa_klasami_cs
 
         static void Main(string[] args)
         {
-            Console.WriteLine("..");            
+            Samochod gbCar = new Samochod();
+            gbCar.Kolor = "Zielony";
+            gbCar.Marka = "Trabant";
+            Console.WriteLine("Kolor: " + gbCar.Kolor);
+            Console.WriteLine("Marka: " + gbCar.Marka);
+            Console.WriteLine("Model: " + gbCar.Model);
             Console.ReadKey();            
         }
 
