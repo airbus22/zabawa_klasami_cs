@@ -15,12 +15,31 @@ namespace zabawa_klasami_cs
             Samochod gbCar = new Samochod();
             gbCar.Kolor = "Zielony";
             gbCar.Marka = "Trabant";
+            gbCar.Model = "601s";
+            
+            //Console.WriteLine("Podaj rodzaj paliwa: ");
+            //gbCar.Paliwo = Console.ReadLine();
+
+            Console.WriteLine("Podaj pojemność: ");
+            gbCar.Pojemnosc = double.Parse(Console.ReadLine());
+
+            Console.WriteLine("Podaj rok produkcji: ");
+            gbCar.RokProdukcji = int.Parse(Console.ReadLine());
+
             Console.WriteLine("Kolor: " + gbCar.Kolor);
             Console.WriteLine("Marka: " + gbCar.Marka);
+
             if (gbCar.Model != null)
                 Console.WriteLine("Model: " + gbCar.Model);
             else
                 Console.WriteLine("nie zdefiniowano");
+
+            Console.WriteLine("Paliwo: " + gbCar.Paliwo);
+            Console.WriteLine("Pojemność: " + gbCar.Pojemnosc);
+            Console.WriteLine("Rok produkcji: " + gbCar.RokProdukcji);
+            Console.WriteLine("Silnik: " + gbCar.Silnik);
+            Console.WriteLine("Typ: " + gbCar.Typ);
+            Console.WriteLine("Uwagi: " + gbCar.Uwagi);
 
             Console.ReadKey();            
         }
