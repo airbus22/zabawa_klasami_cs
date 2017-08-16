@@ -48,7 +48,7 @@ namespace zabawa_klasami_cs
             else
                 Console.WriteLine("Marka: nie zdefiniowano");
 
-            if (gbCar.Model != null)
+            if (gbCar.Model is null)
                 Console.WriteLine("Model: " + gbCar.Model);
             else
                 Console.WriteLine("Model: nie zdefiniowano");
@@ -82,6 +82,7 @@ namespace zabawa_klasami_cs
                 Console.WriteLine("Uwagi: " + gbCar.Uwagi);
             else
                 Console.WriteLine("Uwagi: nie zdefiniowano");
+
             Console.ReadKey();            
         }
 
