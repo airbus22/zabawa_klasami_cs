@@ -8,7 +8,11 @@ namespace zabawa_klasami_cs
 {
     public class Program
     {
-        Samochod Osobowy = new Samochod();
+        Samochod Osobowy = new Samochod()
+        {
+            Kolor = "grafit",
+            Pojemnosc = 1360
+        };
 
         static void Main(string[] args)
         {            
