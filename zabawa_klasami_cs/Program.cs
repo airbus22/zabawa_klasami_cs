@@ -44,14 +44,22 @@ namespace zabawa_klasami_cs
                 Console.WriteLine("Kolor: nie zdefiniowano");
 
             if (gbCar.Model != null)
+            {
                 Console.WriteLine("Marka: " + gbCar.Marka);
+            }
             else
+            {
                 Console.WriteLine("Marka: nie zdefiniowano");
+            }
 
             if (gbCar.Model is null)
+            {
                 Console.WriteLine("Model: " + gbCar.Model);
+            }
             else
+            {
                 Console.WriteLine("Model: nie zdefiniowano");
+            }
 
             if (gbCar.Paliwo != null)
             {
