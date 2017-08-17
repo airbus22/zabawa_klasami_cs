@@ -54,9 +54,13 @@ namespace zabawa_klasami_cs
                 Console.WriteLine("Model: nie zdefiniowano");
 
             if (gbCar.Paliwo != null)
+            {
                 Console.WriteLine("Paliwo: " + gbCar.Paliwo);
+            }
             else
+            {
                 Console.WriteLine("Paliwo: nie zdefiniowano");
+            }
 
             if (gbCar.Pojemnosc != 0)
             {
