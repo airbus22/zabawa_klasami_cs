@@ -59,9 +59,13 @@ namespace zabawa_klasami_cs
                 Console.WriteLine("Paliwo: nie zdefiniowano");
 
             if (gbCar.Pojemnosc != 0)
+            {
                 Console.WriteLine("Pojemność: " + gbCar.Pojemnosc);
+            }
             else
+            {
                 Console.WriteLine("Pojemnosc: nie zdefiniowano");
+            }
 
             if (gbCar.RokProdukcji != 0)
             {
