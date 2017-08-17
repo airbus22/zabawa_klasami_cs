@@ -69,9 +69,13 @@ namespace zabawa_klasami_cs
                 Console.WriteLine("Rok produkcji: nie zdefiniowano");
 
             if (gbCar.Silnik != null)
+            {
                 Console.WriteLine("Silnik: " + gbCar.Silnik);
+            }
             else
+            {
                 Console.WriteLine("Silnik: nie zdefiniowano");
+            }
 
             if (gbCar.Typ != null)
             {
