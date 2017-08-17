@@ -64,7 +64,9 @@ namespace zabawa_klasami_cs
                 Console.WriteLine("Pojemnosc: nie zdefiniowano");
 
             if (gbCar.RokProdukcji != 0)
+            {
                 Console.WriteLine("Rok produkcji: " + gbCar.RokProdukcji);
+            }                
             else
             {
                 Console.WriteLine("Rok produkcji: nie zdefiniowano");
