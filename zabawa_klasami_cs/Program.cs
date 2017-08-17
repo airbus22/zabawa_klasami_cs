@@ -12,16 +12,15 @@ namespace zabawa_klasami_cs
 
         static void Main(string[] args)
         {
+            //Samochod.gbCar = new Samochod();
             Samochod gbCar = new Samochod()
-            {
-                //Samochod.gbCar = new Samochod();
+            {                
                 Kolor = "Zielony",
                 Marka = "Trabant",
-                Model = "601s"
+                Model = "601s"              
             };
 
             //Samochod gbCar = new Samochod();
-            ////Samochod.gbCar = new Samochod();
             //gbCar.Kolor = "Zielony";
             //gbCar.Marka = "Trabant";
             //gbCar.Model = "601s";
@@ -46,7 +45,7 @@ namespace zabawa_klasami_cs
 
             Console.Clear();
 
-            if (gbCar.Model != null)
+            if (gbCar.Kolor != null)
             {
                 Console.WriteLine("Kolor: " + gbCar.Kolor);
             }
@@ -55,7 +54,7 @@ namespace zabawa_klasami_cs
                 Console.WriteLine("Kolor: nie zdefiniowano");
             }
 
-            if (gbCar.Model != null)
+            if (gbCar.Marka != null)
             {
                 Console.WriteLine("Marka: " + gbCar.Marka);
             }
@@ -64,7 +63,7 @@ namespace zabawa_klasami_cs
                 Console.WriteLine("Marka: nie zdefiniowano");
             }
 
-            if (gbCar.Model is null)
+            if (gbCar.Model != null)
             {
                 Console.WriteLine("Model: " + gbCar.Model);
             }
