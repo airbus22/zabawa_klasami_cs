@@ -74,14 +74,22 @@ namespace zabawa_klasami_cs
                 Console.WriteLine("Silnik: nie zdefiniowano");
 
             if (gbCar.Typ != null)
+            {
                 Console.WriteLine("Typ: " + gbCar.Typ);
+            }                
             else
+            {
                 Console.WriteLine("Typ: nie zdefiniowano");
+            }                
 
             if (gbCar.Uwagi != null)
+            {
                 Console.WriteLine("Uwagi: " + gbCar.Uwagi);
+            }
             else
+            {
                 Console.WriteLine("Uwagi: nie zdefiniowano");
+            }
 
             Console.ReadKey();            
         }
