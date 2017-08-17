@@ -11,19 +11,17 @@ namespace zabawa_klasami_cs
         Samochod Osobowy = new Samochod();
 
         static void Main(string[] args)
-        {
-            //Samochod.gbCar = new Samochod();
-            Samochod gbCar = new Samochod()
-            {                
-                Kolor = "Zielony",
-                Marka = "Trabant",
-                Model = "601s"              
-            };
-
+        {            
             //Samochod gbCar = new Samochod();
             //gbCar.Kolor = "Zielony";
             //gbCar.Marka = "Trabant";
             //gbCar.Model = "601s";
+            Samochod gbCar = new Samochod()
+            {
+                Kolor = "Zielony",
+                Marka = "Trabant",
+                Model = "601s"
+            };
 
             Console.WriteLine("Podaj rodzaj paliwa: ");
             gbCar.Paliwo = Console.ReadLine();
