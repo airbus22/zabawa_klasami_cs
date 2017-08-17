@@ -39,9 +39,13 @@ namespace zabawa_klasami_cs
             Console.Clear();
 
             if (gbCar.Model != null)
+            {
                 Console.WriteLine("Kolor: " + gbCar.Kolor);
+            }
             else
+            {
                 Console.WriteLine("Kolor: nie zdefiniowano");
+            }
 
             if (gbCar.Model != null)
             {
