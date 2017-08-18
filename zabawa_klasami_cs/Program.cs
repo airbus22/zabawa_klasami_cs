@@ -45,7 +45,7 @@ namespace zabawa_klasami_cs
             Console.WriteLine("Uwagi: ");
             gbCar.Uwagi = Console.ReadLine();
 
-            Console.Clear();
+            //Console.Clear();
 
             if (gbCar.Kolor != null)
             {
