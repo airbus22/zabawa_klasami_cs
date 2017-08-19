@@ -22,5 +22,6 @@ namespace zabawa_klasami_cs
     public class Motor
     {
         public string Typ { get; set; }
+        public string Marka { get; set; }
     }
 }
