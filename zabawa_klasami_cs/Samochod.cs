@@ -18,4 +18,9 @@ namespace zabawa_klasami_cs
         public int RokProdukcji { get; set; }
         public string Uwagi { get; set; }             
     }
+
+    public class Motor
+    {
+        public string Typ { get; set; }
+    }
 }
