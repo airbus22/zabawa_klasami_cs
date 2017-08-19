@@ -42,7 +42,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="MVC\Kontroler_GB.cs" />
     <Compile Include="MVC\Model_GB.cs" />
+    <Compile Include="MVC\Widok_GB.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Samochod.cs" />
