@@ -8,5 +8,6 @@ namespace zabawa_klasami_cs.MVC
 {
     class Kontroler_GB
     {
+
     }
 }
