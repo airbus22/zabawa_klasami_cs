@@ -23,5 +23,6 @@ namespace zabawa_klasami_cs
     {
         public string Typ { get; set; }
         public string Marka { get; set; }
+        public string Model { get; set; }
     }
 }
