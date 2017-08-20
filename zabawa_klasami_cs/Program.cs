@@ -4,11 +4,7 @@ namespace zabawa_klasami_cs
 {
     public class Program
     {
-        Samochod Osobowy = new Samochod()
-        {
-            Kolor = "grafit",
-            Pojemnosc = 1360
-        };
+        
 
         static void Main(string[] args)
         {            
@@ -126,5 +122,19 @@ namespace zabawa_klasami_cs
 
             Console.ReadKey();            
         }
+
+        Samochod Osobowy = new Samochod()
+        {
+            Kolor = "grafit",
+            Pojemnosc = 1360
+        };
+
+        Samochod Ciezorowy = new Samochod()
+        {
+            Kolor = "biały",
+            Pojemnosc = 8500
+        };
     }
+
+    
 }
