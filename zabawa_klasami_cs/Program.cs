@@ -4,8 +4,6 @@ namespace zabawa_klasami_cs
 {
     public class Program
     {
-        
-
         static void Main(string[] args)
         {            
             //Samochod gbCar = new Samochod();
@@ -134,7 +132,5 @@ namespace zabawa_klasami_cs
             Kolor = "biały",
             Pojemnosc = 8500
         };
-    }
-
-    
+    }    
 }
